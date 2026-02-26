@@ -1,7 +1,8 @@
 # diy-power-meter
 This device can measure the power put into the bicycle via several sensors which are mounted on the crank set. Four of those sensors, called strain gauges, are glued to each crank and measure how much the crank bends when force is applied to it. Through calibration with known forces we can link the amount of bending to the corresponding force in a linear manner. There is also another type of sensor in form of a microchip which measures angular velocity. All this data is then fed into a tiny computer which is also mounted on the crank set, called micro controller. It can calculate the power out of force, crank length and angular velocity, which it sends via BLE(Bluetooth Low Energy) to a device e.g. a smartphone. Here we can use commercial cycling tracking apps to give us useful information while cycling and a report when finished. Also a customizable app was made to capture raw data from the device without the preprocessing from commercial apps.  The power data is very helpful to make training or medical recovery visible and more efficient.
-![Bike Crank](https://github.com/user-attachments/assets/fbea5cf4-6c7a-4e17-8af1-6beb3b0c75a4)
-![Main PCB](https://github.com/user-attachments/assets/7878e2f8-5140-4585-8a4f-841bb9862e64)
-![PCB + Battery Assembly](https://github.com/user-attachments/assets/48dded44-02e1-4644-a7e1-39dfaf5af81c)
-![PCB + Battery Assembly Backside](https://github.com/user-attachments/assets/422315b1-be83-49cd-9926-43fdddb64bce)
-![Strain Gauges on Backside of Crank](https://github.com/user-attachments/assets/2b8392b6-a82c-4317-8f81-8b97572770a2)
+![Bike Crank](https://github.com/user-attachments/assets/745cc5e5-387c-4294-9e54-f6383aae2210)
+![Main PCB](https://github.com/user-attachments/assets/86bccb56-25af-4c08-9ea3-7e39f0b4a260)
+![Strain Gauges on Backside of Crank](https://github.com/user-attachments/assets/d486b9d9-3418-476a-978e-55a83b0897e1)
+![PCB + Battery Assembly](https://github.com/user-attachments/assets/26177eb4-4e5f-4eeb-a063-6fd66dab11e5)
+![PCB + Battery Assembly Backside](https://github.com/user-attachments/assets/ddf283d0-1f01-4379-bd1c-b7ad24f4faa3)
+
